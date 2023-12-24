@@ -23,6 +23,6 @@ Launch the Maven build on the checked out sources of this demo:
 
 > ./mvnw spring-boot:run -DskipTests
 
-Next we need to make sure you have a PostgreSQL instance running (Quarkus automatically starts one for dev and test mode). To set up a PostgreSQL database with Docker:
+Next we need to make sure you have a PostgreSQL instance running. To set up a PostgreSQL database with Docker:
 
 > docker run -d --name db-server -e POSTGRES_USER=test -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 5432:5432 postgres
